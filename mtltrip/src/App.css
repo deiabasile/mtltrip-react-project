@@ -1,0 +1,22 @@
+.main-container {
+  height: 100vh;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+header {
+  height: 40px;
+  border: 1px solid black;
+}
+
+main {
+  flex: 1; /*take all the remaining space + make the footer stick at the bottom.*/
+  border: 1px solid black;
+}
+footer {
+  height: 30px;
+  border: 1px solid black;
+}
