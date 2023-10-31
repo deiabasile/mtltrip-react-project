@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div class="body">
+      <div class="layoutWrapper">
         <header>I'm a 80px tall header and I am now fixed</header>
 
         <main>

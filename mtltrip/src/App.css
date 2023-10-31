@@ -1,4 +1,4 @@
-.body {
+.layoutWrapper {
   height: 100vh;
   max-width: 1440px;
   margin: auto;
@@ -23,6 +23,7 @@ main {
   padding: 70px 0px;
   width: inherit;
   max-width: inherit;
+  overflow-x: scroll;
 }
 footer {
   height: 30px;
