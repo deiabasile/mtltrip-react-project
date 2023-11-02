@@ -1,16 +1,17 @@
 import React from "react";
+
+// Styles
 import classes from "./Button.module.scss";
 
 function Button({ name, id, onButtonClick, label, type, isDisabled }) {
-  console.log("test type", type);
   return (
     <button
-      className={classes.container}
-      name={name}
+      className={type === "primary" ? classes.primary : classes.secondary}
+      disabled={isDisabled}
       id={id}
+      name={name}
       onClick={onButtonClick}
       type="button"
-      disabled={isDisabled}
     >
       {label}
     </button>
