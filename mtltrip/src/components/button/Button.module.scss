@@ -1,8 +1,7 @@
 .primary {
   background-color: blue;
-  border: 1px solid white;
   border-radius: 10px;
-  border: none;
+  border: 1px solid white;
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -15,8 +14,8 @@
 
   &:hover {
     background-color: white;
-    border: 1px solid blue;
     color: blue;
+    border: 1px solid blue;
   }
 
   @media screen and (max-width: 1020px) and (min-width: 768px) {
