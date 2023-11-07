@@ -13,7 +13,6 @@ function App() {
           onButtonClick={() => alert("Hello world!")}
           label="Button"
           type="primary"
-          isDisabled="true"
         />
         <Button
           name="name test 2"
