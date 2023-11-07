@@ -1,7 +1,5 @@
 import "./App.css";
 import Button from "./components/button/index";
-// import { Suspense } from "react";
-// import { useTranslation } from "react-i18next";
 
 function App() {
   return (
